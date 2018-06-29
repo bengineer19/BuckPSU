@@ -1,0 +1,7 @@
+BuckPSU	KEYWORD1
+setVoltageMilliVolts	KEYWORD2
+setCurrentMilliAmps	KEYWORD2
+enableOutput	KEYWORD2
+readVoltageMilliVolts	KEYWORD2
+readCurrentMilliAmps	KEYWORD2
+getOutputEnabled	KEYWORD2
