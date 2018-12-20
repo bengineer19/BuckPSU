@@ -18,12 +18,11 @@ void setup()
 void loop()
 {
 	Serial.print("Voltage (mV): ");
-	Serial.println(psu.readVoltageMilliVolts());
-	delay(200);
-	Serial.print("Current (mA): ");
-	Serial.println(psu.readCurrentMilliAmps());
-	delay(200);
-	Serial.print("Output enabled?: ");
+	Serial.print(psu.readVoltageMilliVolts());
+	Serial.print("\tCurrent (mA): ");
+	Serial.print(psu.readCurrentMilliAmps());
+	Serial.print("\tOutput enabled?: ");
 	Serial.println(psu.getOutputEnabled());
-	delay(200);
+
+	delay(500);
 }
