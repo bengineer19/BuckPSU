@@ -11,3 +11,6 @@ DC-DC converters sold under the brand names Yeeco and DROK seem to be compatible
 Such as:
 * DKP6012 
 * DKP6008
+
+## Additional resources
+For use in a solar controller with an ESP32, see [this project](https://github.com/opensolarproject/OSPController). 
