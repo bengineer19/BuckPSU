@@ -11,7 +11,7 @@ https://github.com/bengineer19/BuckPSU.
 | enableAuto(bool status) | awy1 / awy0 | Enables/Disables if output enabled at power up |
 | enableLock(bool status) |awl1 / awl0| Enables/Disables lock on power supply buttons - local control |
 | enableDisplay(bool status) | awd1 / awd0 | Enables/Disables the 4 digit display |
-| setMemory(int loc) | aws<loc> | Set values in memory (0-9) See Note 1 |
+| setMemory(int loc) | aws<loc> | Set values in memory (0-9) *See Note 1 |
 | getMemory(int loc) | awm<loc> | Get values from memory (0-9) |
 | readVoltageMilliVolts() | aru | Returns active output Voltage |
 | readCurrentMilliAmps() | ari | Returns acive output Current |
@@ -46,8 +46,8 @@ Wiring notes:
 | T | TX |
 | G | Signal and Power ground in power supply. |
 | R | RX |
-| V | +5VDC |
+| V | +5VDC - *See Note 2 |
 
-I've come across some that the 5V was high (one was 6.2VDC) and could cause issues if being used as teh VCC for the MCU.   It's safe to leave the voltage line disconnected if you don't want to use it as a source for voltage.
+* Note 2I've come across some of the power supplies that the 5V was high (one was 6.2VDC) and could cause issues if being used as teh VCC for the MCU.   It's safe to leave the voltage line disconnected if you don't want to use it as a source for voltage.
 
 The MCU to Power Supply transmit TTL levels appear to need to be level shifted from 3.3 to 5 volts for best results for devices like the ESP32 and other 3.3v TTL level devices.
