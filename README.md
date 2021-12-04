@@ -1,5 +1,5 @@
 # BuckPSU
-Arduino library for inexpensive remotly controllable and monitored DC-DC converters via a basic ASCI based API forked from the great work from
+Arduino library for inexpensive (~$30) remotely controllable and monitored DC-DC converters via a basic ASCI based API forked from the great work from
 https://github.com/bengineer19/BuckPSU.
 
  Some poorly written documentation for the protocol from Drok:
