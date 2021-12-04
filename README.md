@@ -11,7 +11,7 @@ https://github.com/bengineer19/BuckPSU.
 | enableAuto(bool status) | awy1 / awy0 | Enables/Disables if output enabled at power up |
 | enableLock(bool status) |awl1 / awl0| Enables/Disables lock on power supply buttons - local control |
 | enableDisplay(bool status) | awd1 / awd0 | Enables/Disables the 4 digit display |
-| setMemory(int loc) | aws<loc> | Set values in memory (0-9)  |
+| setMemory(int loc) | aws<loc> | Set values in memory (0-9) See Note 1 |
 | getMemory(int loc) | awm<loc> | Get values from memory (0-9) |
 | readVoltageMilliVolts() | aru | Returns active output Voltage |
 | readCurrentMilliAmps() | ari | Returns acive output Current |
@@ -23,8 +23,9 @@ https://github.com/bengineer19/BuckPSU.
 | getAutoEnabled() | ary | Get the status if output is on or off at power up |
 | getLockEnabled() | arl | Get if the front panel is locked |
 
+  *Note 1 - Preset memory location zero sets the default power up values.
 
-Fun fact: Whan it is working, the poll and response causes the four digit numeric display appear to flicker.
+Fun fact: When the Power Supply is polled by the MCU, it causes the four digit numeric display appear to flicker.
 
 From experimenting and testing, I've found that searching "DC to DC Step Down Power Supply Module 10V-65V" or "DKP6012" yeild the search results to find them for purchase.
 
