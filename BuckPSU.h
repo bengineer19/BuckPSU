@@ -1,7 +1,7 @@
 /**
  * BuckPSU.h
  * Library for interfacing with UART on Chinese DC-DC converters.
- * Ben James (benjames.io)
+ * Original work from Ben James (benjames.io)
  */
 
 #ifndef BuckPSU_h
