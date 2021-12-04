@@ -50,7 +50,7 @@ Wiring notes:
 | Power Supply| MCU |
 | ------------- | ------------- |
 | T | TX |
-| G | Signal and Power ground in power supply. |
+| G | Signal and DC ground for power supply. |
 | R | RX |
 | V | +5VDC - *See Note 2 |
 
