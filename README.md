@@ -17,10 +17,10 @@ They all function the same with the small recent exeption where the default baud
 
 Wiring notes:
 
-Power Supply:      MCU:
-T                  TX
-G                  Signal and Power ground in power supply.
-R                  RX
-V                  +5VDC*
+|Power Supply:      |MCU:|
+|T|                  TX|
+|G|                  Signal and Power ground in power supply.|
+|R|                  RX|
+|V|                  +5VDC*|
 
 * I've come across some that the 5V was high (one was 6.2VDC) and could cause issues if being used as teh VCC for the MCU.   It's safe to leave the voltage line disconnected if you don't want to use it as a source for voltage.
