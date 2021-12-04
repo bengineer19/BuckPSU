@@ -1,5 +1,5 @@
 # BuckPSU
-Arduino library for inexpensive (~$30) remotely controllable and monitored DC-DC converters with spport of additional commands -  forked from the great work from Ben James
+Arduino library for inexpensive (~$30) remotely controllable and monitored DC-DC converters with support of additional commands -  forked from the great work from Ben James
 https://github.com/bengineer19/BuckPSU.
 
  Ben's realted blog post:
