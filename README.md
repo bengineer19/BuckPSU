@@ -2,6 +2,11 @@
 Arduino library for inexpensive remotly controllable and monitored DC-DC converters forked from the great work from
 https://github.com/bengineer19/BuckPSU.
 
+
+|Library function| prototol command |  Use |
+| ------------- | ------------- | ------------- |
+
+
 Fun fact: Whan it is working, the poll and response causes the four digit numeric display appear to flicker.
 
 From experimenting and testing, I've found that searching "DC to DC Step Down Power Supply Module 10V-65V" or "DKP6012" yeild the search results to find them for purchase.
