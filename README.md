@@ -46,7 +46,7 @@ The generic ones found on places like Aliexpress look like these:
 
 They all function the same with the small recent exception where the default baud rate used to be 4800 but more recently finding it to be 9600 on recently produced devices as of mid 2021.
 
-Wiring notes:
+Wiring details:
 
 | Power Supply| MCU |
 | ------------- | ------------- |
