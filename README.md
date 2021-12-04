@@ -3,8 +3,32 @@ Arduino library for inexpensive remotly controllable and monitored DC-DC convert
 https://github.com/bengineer19/BuckPSU.
 
 
-|Library function| prototol command |  Use |
+|Library function| Prototol command |  Use |
 | ------------- | ------------- | ------------- |
+| setVoltageMilliVolts(uint16_t millivolts) |  | Sets output volage |
+| setCurrentMilliAmps(uint16_t milliamps) |  | Sets output current |
+| enableOutput(bool status) |  | Enables/Disables the Output |
+| enableAuto(bool status) |  | Enables/Disables if output enabled at power up |
+|  enableLock(bool status) |  | Enables/Disables lock on power supply buttons - local control |
+| enableDisplay(bool status) |  | Enables/Disables the 4 digit display |
+| setMemory(int loc) |  | Set values in memory (0-9)  |
+| getMemory(int loc) |  | Get values from memory (0-9) |
+
+| readVoltageMilliVolts() |  | Returns active output Voltage |
+| readCurrentMilliAmps() |  | Returns acive output Current |
+| readSetMilliVolts() |  | Returns set output Voltage |
+| readSetMilliAmps( |  | Returns set output Current |
+| readTimer() |  | Reads number of seconds supply has run |
+| readCapacity() |  | Reads total amp hours supply provided |
+
+| getOutputEnabled() |  | Get the status of the output |
+| getAutoEnabled() |  | Get the status if output is on or off at power up |
+| getLockEnabled() |  | Get if the front panel is locked |
+
+
+
+
+
 
 
 Fun fact: Whan it is working, the poll and response causes the four digit numeric display appear to flicker.
