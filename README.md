@@ -5,8 +5,8 @@ https://github.com/bengineer19/BuckPSU.
 
 |Library function| Prototol command |  Use |
 | ------------- | ------------- | ------------- |
-| setVoltageMilliVolts(uint16_t millivolts) | awu (milivolts) | Sets output volage |
-| setCurrentMilliAmps(uint16_t milliamps) | awi (miliamps) | Sets output current |
+| setVoltageMilliVolts(uint16_t millivolts) | awu (milivolts) | Sets output Volage in mV |
+| setCurrentMilliAmps(uint16_t milliamps) | awi (miliamps) | Sets output Current in mA |
 | enableOutput(bool status) | awo1 / awo0 | Enables/Disables the Output |
 | enableAuto(bool status) | awy1 / awy0 | Enables/Disables if output enabled at power up |
 | enableLock(bool status) |awl1 / awl0| Enables/Disables lock on power supply buttons - local control |
