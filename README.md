@@ -18,6 +18,7 @@ They all function the same with the small recent exeption where the default baud
 Wiring notes:
 
 | Power Supply| MCU |
+| ------------- | ------------- |
 | T | TX |
 | G | Signal and Power ground in power supply. |
 | R | RX |
