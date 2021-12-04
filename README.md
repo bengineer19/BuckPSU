@@ -21,7 +21,7 @@ https://github.com/bengineer19/BuckPSU.
 | readCapacity() | arc | Reads total amp hours supply provided |
 | getOutputEnabled() | aro | Get the status of the output |
 | getAutoEnabled() | ary | Get the status if output is on or off at power up |
-| getLockEnabled() | ari | Get if the front panel is locked |
+| getLockEnabled() | arl | Get if the front panel is locked |
 
 
 Fun fact: Whan it is working, the poll and response causes the four digit numeric display appear to flicker.
