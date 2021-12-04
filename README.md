@@ -1,16 +1,5 @@
 # BuckPSU
-Arduino library for cheap-as-chips DC-DC converters
+Arduino library for cheap-as-chips DC-DC converters forked from the great work from https://github.com/bengineer19/BuckPSU
 
-See [example here](https://github.com/bengineer19/BuckPSU/blob/master/examples/BuckPSU_example/BuckPSU_example.ino).
-This isn't guaranteed to work with all models, this is just what I found works and thought I'd share it in case it's helpful to anyone else.
+Newer power supplies appear from Drok and other manufacturers appear to have the baud rate at 9600, older units were 4800.
 
-Read more (including pinouts and connection details) at my [blog post.](https://benjames.io/2018/06/29/secret-uart-on-chinese-dcdc-converters/)
-
-## Compatible converters
-DC-DC converters sold under the brand names Yeeco and DROK seem to be compatible with these commands.
-Such as:
-* DKP6012 
-* DKP6008
-
-## Additional resources
-For use in a solar controller with an ESP32, see [this project](https://github.com/opensolarproject/OSPController). 
