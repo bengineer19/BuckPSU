@@ -2,11 +2,11 @@
 Arduino library for inexpensive (~$30) remotely controllable and monitored DC-DC converters with spport of additional commands -  forked from the great work from Ben James
 https://github.com/bengineer19/BuckPSU.
 
- Some poorly written documentation for the protocol from Drok:
- https://www.droking.com/cs/support/topic/200220-dc-dc-buck-converter-uart/#post-35186
- 
  Ben's realted blog post:
  https://blog.benjames.io/2018/06/29/secret-uart-on-chinese-dcdc-converters/
+
+ Some poorly written documentation for the protocol from Drok:
+ https://www.droking.com/cs/support/topic/200220-dc-dc-buck-converter-uart/#post-35186
 
 
 |Library function| Prototol command |  Use |
