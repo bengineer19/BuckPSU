@@ -152,7 +152,7 @@ bool BuckPSU::getLockEnabled()
     char msg[16];
 
     // Request output lock status
-    _port->println("ari");
+    _port->println("arl");
     _port->readBytes(msg, 16);
 
     return (msg[13] == '1') ? true : false;
