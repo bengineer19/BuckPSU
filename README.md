@@ -24,4 +24,4 @@ Wiring notes:
 | R | RX |
 | V | +5VDC* |
 
-* I've come across some that the 5V was high (one was 6.2VDC) and could cause issues if being used as teh VCC for the MCU.   It's safe to leave the voltage line disconnected if you don't want to use it as a source for voltage.
+** I've come across some that the 5V was high (one was 6.2VDC) and could cause issues if being used as teh VCC for the MCU.   It's safe to leave the voltage line disconnected if you don't want to use it as a source for voltage.
