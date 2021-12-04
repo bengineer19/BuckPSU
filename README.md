@@ -13,14 +13,12 @@ https://github.com/bengineer19/BuckPSU.
 | enableDisplay(bool status) |  | Enables/Disables the 4 digit display |
 | setMemory(int loc) |  | Set values in memory (0-9)  |
 | getMemory(int loc) |  | Get values from memory (0-9) |
-
 | readVoltageMilliVolts() |  | Returns active output Voltage |
 | readCurrentMilliAmps() |  | Returns acive output Current |
 | readSetMilliVolts() |  | Returns set output Voltage |
 | readSetMilliAmps( |  | Returns set output Current |
 | readTimer() |  | Reads number of seconds supply has run |
 | readCapacity() |  | Reads total amp hours supply provided |
-
 | getOutputEnabled() |  | Get the status of the output |
 | getAutoEnabled() |  | Get the status if output is on or off at power up |
 | getLockEnabled() |  | Get if the front panel is locked |
