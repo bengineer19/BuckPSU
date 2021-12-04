@@ -18,7 +18,7 @@ https://github.com/bengineer19/BuckPSU.
 | readSetMilliVolts() | arv | Returns set output Voltage |
 | readSetMilliAmps( | ara | Returns set output Current |
 | readTimer() | art | Returns number of seconds supply has run |
-| readCapacity() | arc | Returns total amp hours supply provided |
+| readCapacity() | arc | Returns total amp hours in thousandth of AH |
 | getOutputEnabled() | aro | Get the status of the output |
 | getAutoEnabled() | ary | Get the status if output is on or off at power up |
 | getLockEnabled() | arl | Get if the front panel is locked |
