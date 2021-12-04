@@ -46,6 +46,8 @@ The generic ones found on places like Aliexpress look like these:
 
 Ben's page list that the Library also supports the model DKP6008 - At this time, there has been no testing of this library's additions against the DKP6008, but it should work.
 
+![DKP6008](https://user-images.githubusercontent.com/24259942/144708549-890997f1-5930-4279-b7c4-0e8f7f2b0d43.png)
+
 
 They all function the same with the small recent exception where the default baud rate used to be 4800 but more recently finding it to be 9600 on recently produced devices as of mid 2021.
 
