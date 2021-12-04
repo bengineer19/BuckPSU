@@ -5,14 +5,14 @@ https://github.com/bengineer19/BuckPSU.
 
 |Library function| Prototol command |  Use |
 | ------------- | ------------- | ------------- |
-| setVoltageMilliVolts(uint16_t millivolts) | awu<milivolts> | Sets output volage |
-| setCurrentMilliAmps(uint16_t milliamps) | awi<miliamps> | Sets output current |
+| setVoltageMilliVolts(uint16_t millivolts) | awu (milivolts) | Sets output volage |
+| setCurrentMilliAmps(uint16_t milliamps) | awi (miliamps) | Sets output current |
 | enableOutput(bool status) | awo1 / awo0 | Enables/Disables the Output |
 | enableAuto(bool status) | awy1 / awy0 | Enables/Disables if output enabled at power up |
 | enableLock(bool status) |awl1 / awl0| Enables/Disables lock on power supply buttons - local control |
 | enableDisplay(bool status) | awd1 / awd0 | Enables/Disables the 4 digit display |
-| setMemory(int loc) | aws<loc> | Set values in memory (0-9) *See Note 1 |
-| getMemory(int loc) | awm<loc> | Get values from memory (0-9) |
+| setMemory(int loc) | aws (loc) | Set values in memory (0-9) *See Note 1 |
+| getMemory(int loc) | awm (loc) | Get values from memory (0-9) |
 | readVoltageMilliVolts() | aru | Returns active output Voltage |
 | readCurrentMilliAmps() | ari | Returns acive output Current |
 | readSetMilliVolts() | arv | Returns set output Voltage |
