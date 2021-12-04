@@ -22,7 +22,7 @@ https://github.com/bengineer19/BuckPSU.
 | readVoltageMilliVolts() | aru | Returns active output Voltage |
 | readCurrentMilliAmps() | ari | Returns acive output Current |
 | readSetMilliVolts() | arv | Returns set output Voltage |
-| readSetMilliAmps( | ara | Returns set output Current |
+| readSetMilliAmps() | ara | Returns set output Current |
 | readTimer() | art | Returns number of seconds supply has run |
 | readCapacity() | arc | Returns total amp hours in thousandth of AH |
 | getOutputEnabled() | aro | Get the status of the output |
