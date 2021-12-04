@@ -55,6 +55,6 @@ Wiring notes:
 | R | RX |
 | V | +5VDC - *See Note 2 |
 
-*Note 2  I've come across some of the power supplies that the +5VDC was high (one was 6.2VDC) and could cause issues if being used as the VCC for the MCU.   It's safe to leave the voltage line disconnected if you don't want to use it as a source for voltage to the MCU.
+*Note 2 - I've come across some of the power supplies that the +5VDC was high (one was 6.2VDC) and could cause issues if being used as the VCC for the MCU.   It's safe to leave the voltage line disconnected if you don't want to use it as a source for voltage to the MCU.
 
 The MCU to Power Supply transmit TTL levels appear to need to be level shifted from 3.3 to 5 volts for best results for devices like the ESP32 and other 3.3v TTL level devices.
