@@ -63,3 +63,13 @@ Wiring details:
 *Note 2 - I've come across some of the power supplies that the +5VDC was high (one was 6.2VDC) and could cause issues if being used as the VCC for the MCU.   It's safe to leave the voltage line disconnected if you don't want to use it as a source for voltage to the MCU.   Advise you to check the voltage on this pn before using it as a source for VCC to the MCU.
 
 The MCU to Power Supply transmit TTL levels appear to need to be level shifted from 3.3 to 5 volts for best results for devices like the ESP32 and other 3.3v TTL level devices.
+
+During testing and analysis of the comminication.  It was found that the reply is very quick after the poll. Also, though the little bit of documentation states the line termination needs to contain an /r /n (0x0D, 0x0A) - the power supply starts to respond after the /r (0x0D).
+
+![return_newline](https://user-images.githubusercontent.com/24259942/146318917-c3b298ae-e19d-4130-b20a-eec27641f2cd.png)
+
+Testing just an /r (0x0D) on the poll shows that it will indead respond to just that as the line termniation.
+
+![only_return](https://user-images.githubusercontent.com/24259942/146319094-8210b66e-e23b-47ab-8e88-94c00b13407e.png)
+
+
